@@ -18,7 +18,7 @@
         font-size: 1.6rem;
         .verde{
           font-size: 1.6rem;
-          color: #899D12;
+          color: rgb(241, 217, 0);
         }
       }
     }
@@ -58,7 +58,7 @@
 
         .Amarillo{
           font-size: 1.6rem;
-          color: #F1CA08;
+          color: rgb(80, 129, 16);
         }
       }
     }
@@ -109,7 +109,7 @@
 }
 @include mQ(mediumS){
   .heroWrap{
-    background-image: url('./images/fondoWide.png');
+    background-image: url('./images/hero.jpg');
     &-infoCorp{
       // background-color: pink;
       .slogan{
