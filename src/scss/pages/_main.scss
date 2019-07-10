@@ -32,18 +32,21 @@ body{
   }
   &-contact{
     // background-color: palevioletred;
+    // margin: 1rem 0;
     .box{
-      padding: 1rem 2rem;
+      padding: 0.1rem;
+      margin: 0.5rem 0 1.5rem;
       border: 0.1vw solid $baseredes;
       &-icon{
         color:$resalte;
-        margin-right: 0.5rem;
-        font-size: 1rem;
+        margin-right: 0.4rem;
+        font-size: 4.5rem !important;
       }
       &-text{
         color: $resalte;
+        // font-size: 2rem;
         p{
-          font-size: 1rem;
+          font-size: 1.5rem;
         }
 
       }
@@ -53,7 +56,7 @@ body{
     // background-color: yellowgreen;
 
     &.sectionOne{
-      background-image: url('/src/images/img01_320.png');
+      background-image: url('/images/img01_320.jpg');
       background-repeat: no-repeat;
       background-size: 100%;
       .mainContainer-Service_banner{
@@ -97,13 +100,13 @@ body{
       }
     }
     &.sectionTwo{
-      background-image: url('/src/images/img02_320.png');
+      background-image: url('/images/img02_320.jpg');
       background-repeat: no-repeat;
       background-size: 100%;
       // background-attachment: fixed;
-      .mainContainer-Service_banner{
 
-        // background-color: aqua;
+      .mainContainer-Service_banner{
+        // background-color: maroon;
 
         &__icon{
           // background-color: red;
@@ -115,11 +118,12 @@ body{
         }
         &__title{
           // background-color: rgb(248, 248, 255);
-          height: 60%;
+          height: 68%;
           padding-left: 0.5rem;
           background-color: $baseredes;
           .bannerTitle2{
             color: $resalte;
+
           }
         }
         &__body{
@@ -130,21 +134,24 @@ body{
           }
           .fraseBody{
             // background-color: palevioletred;
-            font-size: 1.8rem !important;
+            background-color: rgba(255, 254, 254, 0.4);
+            font-size: 1.2rem ;
+            line-height: 1.2rem;
             color: $prueba01;
           }
           .invitacionBody{
             // background-color: yellowgreen;
             color: $baseredes;
-            font-size: 3rem !important;
+            line-height: 1.8rem;
+            font-size: 1.8rem;
           }
           .emphasis{
             // background-color: pink;
+            background-color: rgba(255, 254, 254, 0.4);
             color: $prueba01;
             font-style: italic;
-            font-size: 1rem !important;
+            font-size: 1rem;
             @include centerFlex;
-
           }
           .textoBody{
             background-color: #2C2B2B;
@@ -157,7 +164,7 @@ body{
       }
     }
     &.sectionThree{
-      background-image: url('/src/images/img03_320.png');
+      background-image: url('/images/img03_320.jpg');
       background-repeat: no-repeat;
       background-size: 100%;
       // background-attachment: fixed;
@@ -174,7 +181,7 @@ body{
           // background-color: blue;
           h2{
             color: $resalte;
-            font-size: 5.5rem;
+            font-size: 2.5rem;
           }
 
         }
@@ -301,6 +308,7 @@ body{
 }
 .containerPromotion{
   margin-top: 1rem;
+  padding-bottom: .5rem;
   background-color: $resalte;
 
   &_title{
@@ -313,15 +321,15 @@ body{
     // background-color: violet;
     // margin: 0 20%;
     padding: 0.5rem;
-    border: 0.1rem solid $baseredes;
+    border: 0.3rem solid $baseredes;
     i{
       color: $baseredes;
       margin-right: 0.5rem;
-      font-size: 2.5rem;
+      font-size: 3.5rem;
     }
     .txtWs{
       color: $baseredes;
-      font-size: 2.5rem;
+      font-size: 1.5rem;
     }
   }
 }
@@ -361,7 +369,129 @@ body{
     &-sectionUs{
       // background-color: orangered;
     }
+    &-Service {
+      // background-color: yellowgreen;
+      &-contact {
+        // background-color: blue;
 
+        .box {
+
+          // padding: 0.1rem 1rem;
+          &-icon {
+            // color:$resalte;
+            // margin-right: 0.5rem;
+            // font-size: 1.2rem;
+          }
+
+          &-text {
+            // color: $resalte;
+
+            p {
+              // font-size: 1.7rem;
+            }
+          }
+        }
+      }
+      &.sectionTwo {
+        // background-image: url('/images/img02_320.jpg');
+        // background-repeat: no-repeat;
+        // background-size: 100%;
+        // background-attachment: fixed;
+
+        .mainContainer-Service_banner {
+          // background-color: aqua;
+
+          &__icon {
+            // background-color: red;
+            height: 60%;
+            margin-right: 1rem;
+            color: $baseredes;
+            font-size: 2.5rem;
+            z-index: 100;
+          }
+
+          &__title {
+            // background-color: rgb(248, 248, 255);
+            height: 60%;
+            padding-left: 0.5rem;
+            background-color: $baseredes;
+
+            .bannerTitle2 {
+              color: $resalte;
+            }
+          }
+
+          &__body {
+
+            // background-color: antiquewhite;
+            .mainContainer-Service_articleBox_ab2 {
+              // background-color: maroon;
+
+            }
+
+            .fraseBody {
+              // background-color: red;
+              font-size: 1.6rem;
+              line-height: 1.6rem;
+              // color: $prueba01;
+            }
+
+            .invitacionBody {
+              // background-color: green;
+              color: $baseredes;
+              font-size: 2rem;
+            }
+
+            .emphasis {
+              // background-color: pink;
+              // color: $prueba01;
+              // font-style: italic;
+              // font-size: 1rem !important;
+              // @include centerFlex;
+            }
+
+            .textoBody {
+              // background-color: #2C2B2B;
+              // color: white;
+              // padding: 0 1.5rem;
+              // font-size: 1.1rem !important;
+              // @include centerFlex;
+            }
+          }
+        }
+      }
+    }
+  }
+  .containerPromotion {
+    margin-top: 1rem;
+    padding-bottom: .5rem;
+    background-color: $resalte;
+
+    &_title {
+
+      // background-color: cadetblue;
+      .titleEnd {
+        color: aliceblue;
+      }
+    }
+
+    &_squareWs {
+      // background-color: violet;
+      // margin: 0 20%;
+      padding: 0.5rem;
+      border: 0.3rem solid $baseredes;
+
+      i {
+        color: $baseredes;
+        margin-right: 0.5rem;
+        font-size: 4.5rem;
+      }
+
+      .txtWs {
+        color: $baseredes;
+        font-size: 2.5rem;
+      }
+    }
   }
 
 }
@@ -372,27 +502,27 @@ body{
       // background-color: yellowgreen;
     }
     &-contact{
-    // background-color: palevioletred;
+    // background-color: purple;
       .box{
-        // padding: 0.1rem 1rem;
+        padding: 0.1rem 1rem;
         &-icon{
           // color:$resalte;
           // margin-right: 0.5rem;
-          font-size: 1.2rem;
+          // font-size: 1.2rem;
         }
-        &-text{
-          color: $resalte;
-          p{
-            font-size: 1.2rem;
-          }
-        }
+        // &-text{
+        //   color: $resalte;
+        //   p{
+        //     font-size: 1.2rem;
+        //   }
+        // }
       }
     }
     &-Service{
     // background-color: yellowgreen;
 
     &.sectionOne{
-      background-image: url('/src/images/img01_600.png');
+      background-image: url('/images/img01_600.jpg');
       .mainContainer-Service_banner{
         // background-color: plum;
 
@@ -417,7 +547,7 @@ body{
       }
     }
     &.sectionTwo{
-      background-image: url('/src/images/img02_600.png');
+      background-image: url('/images/img02_600.jpg');
       // background-attachment: fixed;
       .mainContainer-Service_banner{
 
@@ -438,8 +568,15 @@ body{
 
           }
           .fraseBody{
+            // background-color: paleturquoise;
+            font-size: 1.8rem;
+            line-height: 1.8rem;
           }
+
           .invitacionBody{
+            // background-color: royalblue;
+            color: $baseredes;
+            font-size: 3rem;
           }
           .emphasis{
           }
@@ -450,7 +587,7 @@ body{
       }
     }
     &.sectionThree{
-      background-image: url('/src/images/img03_600.png');
+      background-image: url('/images/img03_600.jpg');
       .mainContainer-Service_banner{
 
         // background-color: aqua;
@@ -471,14 +608,14 @@ body{
           }
           .fraseBody{
             margin: 3.5rem 0.5rem;
-            font-size: 1.5rem;
+            // font-size: 1.5rem;
             span{
-              font-size: 1.5rem;
+              // font-size: 1.5rem;
             }
           }
           .invitacionBody{
             // background-color: yellowgreen;
-            font-size: 1.5rem;
+            // font-size: 1.5rem;
           }
 
         }
@@ -660,10 +797,13 @@ body{
 
           }
           .fraseBody{
+            background-color: rgba(255, 254, 254, 0.1);
           }
           .invitacionBody{
+
           }
           .emphasis{
+            background-color: rgba(255, 254, 254, 0.1);
           }
           .textoBody{
           }
@@ -683,6 +823,12 @@ body{
           font-size: 3rem;
         }
         &__title{
+          // background-color: red;
+
+          h2 {
+            color: $resalte;
+            font-size: 4.5rem;
+          }
         }
         &__body{
           // background-color: antiquewhite;
@@ -864,9 +1010,12 @@ body{
           // z-index: 100;
         }
         &__title{
-          // background-color: blue;
-          // color: $baseredes;
-          // font-size: 6vw;
+          // background-color: olivedrab;
+
+          h2 {
+            color: $resalte;
+            font-size: 5rem;
+          }
         }
         &__body{
           // background-color: antiquewhite;
@@ -880,13 +1029,13 @@ body{
             // color: black;
             span{
               color:$baseredes;
-              font-size: 3vh
+              // font-size: 3vh
             }
           }
           .invitacionBody{
             // background-color: yellowgreen;
             color: $baseredes;
-            font-size: 2rem;
+            // font-size: 2rem;
           }
 
         }

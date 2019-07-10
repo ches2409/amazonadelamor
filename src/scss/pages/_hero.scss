@@ -1,6 +1,6 @@
 .heroWrap{
   // background-color: red;
-  background-image: url('./images/FondosPropCC.png');
+  background-image: url('./images/FondosPropCC.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11,6 +11,7 @@
     .slogan{
       // background-color: darkmagenta;
       h2{
+        // background-color: aqua;
         text-align: center;
       }
       h2{
@@ -30,6 +31,7 @@
   .content {
 
   &__container {
+    // background-color: palevioletred;
     font-weight: 600;
     overflow: hidden;
     height: 50px;
