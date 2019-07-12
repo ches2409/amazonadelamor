@@ -34,14 +34,15 @@
 }
 .mainContainer{
   // background-color: red;
+
   &-sectionUs{
     // background-color: purple;
     height: 100vh;
     display: grid;
-    grid-template-rows: 15% 75% 10%;
+    grid-template-rows: 10% 82% 8%;
   }
   &-head{
-    // background-color: blueviolet;
+    background-color: blueviolet;
     margin-top: 0.5rem;
     grid-row: 1 / 2;
     @include centerFlex();
@@ -60,13 +61,13 @@
     }
   }
   &-boxA{
-    // background-color: chartreuse;
+    background-color: chartreuse;
     grid-row: 2 / 3;
     @include centerFlex();
     text-align: center;
   }
   &-contact{
-    // background-color: rgb(240, 64, 231);
+    background-color: rgb(240, 64, 231);
     grid-row: 3 / 4;
     @include centerFlex();
     // display: grid;
